@@ -6,9 +6,9 @@
     box-sizing: border-box;
 }
 
+/* Element Modifiers */
 a {
     text-decoration: none;
-    /* color: white; */
 }
 
 li a {
@@ -54,11 +54,19 @@ h1 {
     /* margin-bottom: 8px; */
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 2rem;
+}
+
 button {
     padding: 8px 24px;
     font-weight: bold;
 }
 
+/* Class modifiers */
 .hero {
     color: white;
     display: flex;
@@ -68,6 +76,12 @@ button {
     padding: 4rem 20rem;
     gap: 8rem;
     flex-wrap: wrap;
+}
+
+.info {
+    text-align: center;
+    background-color: white;
+    padding: 3rem 22rem 8rem 22rem;
 }
 
 .hero-content {
@@ -80,6 +94,34 @@ button {
     font-size: 18px;
 }
 
+.cards {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    height: auto;
+}
+
+.card {
+    width: 10rem;
+    height: auto;
+}
+
+.square {
+    border: solid #3882f6 4px;
+    border-radius: 10px;
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+}
+
+.card-text {
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+/* ID Modifiers */
 #header-logo {
     font-size: 24px;
     color: #F9FAF8;
