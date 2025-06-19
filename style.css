@@ -6,3 +6,38 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding-left: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    align-items: center;
+}
+
+body {
+    background-color: #1F2937;
+}
+
+#header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
