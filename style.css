@@ -41,6 +41,14 @@ body {
     background-color: #1F2937;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    align-items: center;
+    color: #F9FAF8;
+}
+
 img {
     width: 30em;
     display: block;
@@ -91,6 +99,14 @@ button {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+}
+
+.CTA {
+    min-height: 30vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Class Modifiers */
@@ -148,6 +164,17 @@ button {
     align-self: flex-end;
 }
 
+.CTA-container {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 3rem 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6.5rem;
+    border-radius: 10px;
+}
+
 /* ID Modifiers */
 #header-logo {
     font-size: 24px;
@@ -161,4 +188,16 @@ button {
     border: none;
     border-radius: 5px;
     margin-top: 8px;
+}
+
+#secondary-CTA {
+    border: solid #F9FAF8 2px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #F9FAF8;
+}
+
+#secondary-CTA:hover {
+    background-color: #F9FAF8;
+    color: #1F2937;
 }
